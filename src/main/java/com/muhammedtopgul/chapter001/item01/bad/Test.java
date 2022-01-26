@@ -9,13 +9,13 @@ public class Test {
 
     public static void main(String[] args) {
 
-        AnimalWithConstructor cat = new AnimalWithConstructor("Van", true, true);
-        AnimalWithConstructor dog = new AnimalWithConstructor("Kangal", true, true);
-        AnimalWithConstructor chicken = new AnimalWithConstructor("Polish", false, true);
-        AnimalWithConstructor fish = new AnimalWithConstructor("Molly", false, false);
+        Animal cat = new Animal("Van", true, true);
+        Animal dog = new Animal("Kangal", true, true);
+        Animal chicken = new Animal("Polish", false, true);
+        Animal fish = new Animal("Molly", false, false);
 
-        AnimalWithConstructor tommy = new Cat("Van", true, true);
-        AnimalWithConstructor rinTinTin = new Dog("Kangal", true, true);
+        Animal tommy = new Cat("Van", true, true);
+        Animal rinTinTin = new Dog("Kangal", true, true);
 
         System.out.println(cat);
     }

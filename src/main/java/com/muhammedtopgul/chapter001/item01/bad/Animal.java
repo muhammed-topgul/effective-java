@@ -5,12 +5,12 @@ package com.muhammedtopgul.chapter001.item01.bad;
  * @since 26.01.2022 10:05
  */
 
-public class AnimalWithConstructor {
+class Animal {
     private String breed;
     private boolean isMammal;
     private boolean movingWithFeet;
 
-    public AnimalWithConstructor(String breed, boolean isMammal, boolean movingWithFeet) {
+    public Animal(String breed, boolean isMammal, boolean movingWithFeet) {
         this.breed = breed;
         this.isMammal = isMammal;
         this.movingWithFeet = movingWithFeet;
@@ -26,14 +26,14 @@ public class AnimalWithConstructor {
     }
 }
 
-class Cat extends AnimalWithConstructor {
+class Cat extends Animal {
 
     public Cat(String breed, boolean isMammal, boolean movingWithFeet) {
         super(breed, isMammal, movingWithFeet);
     }
 }
 
-class Dog extends AnimalWithConstructor {
+class Dog extends Animal {
 
     public Dog(String breed, boolean isMammal, boolean movingWithFeet) {
         super(breed, isMammal, movingWithFeet);

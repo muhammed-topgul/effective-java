@@ -8,13 +8,13 @@ package com.muhammedtopgul.chapter001.item01.good;
 public class Test {
 
     public static void main(String[] args) {
-        AnimalWithStaticFactory cat = AnimalWithStaticFactory.getMammal("Van");
-        AnimalWithStaticFactory dog = AnimalWithStaticFactory.getMammal("Kangal");
-        AnimalWithStaticFactory chicken = AnimalWithStaticFactory.getNonMammalAndMovingWithFeet("Polish");
-        AnimalWithStaticFactory fish = AnimalWithStaticFactory.getNonMammalAndMovingWithNonFeet("Molly");
+        Animal cat = Animal.getMammal("Van");
+        Animal dog = Animal.getMammal("Kangal");
+        Animal chicken = Animal.getNonMammalAndMovingWithFeet("Polish");
+        Animal fish = Animal.getNonMammalAndMovingWithNonFeet("Molly");
 
-        Cat tommy = AnimalWithStaticFactory.getMammalAsCat("Van");
-        Dog rinTinTin = AnimalWithStaticFactory.getMammalAsDog("Kangal");
+        Cat tommy = Animal.getMammalAsCat("Van");
+        Dog rinTinTin = Animal.getMammalAsDog("Kangal");
 
         System.out.println(tommy);
         System.out.println(rinTinTin);
