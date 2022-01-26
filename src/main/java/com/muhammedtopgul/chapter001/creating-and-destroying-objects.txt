@@ -11,3 +11,6 @@ Item 1: Consider static factory methods instead of constructors.
         - A second shortcoming of static factory methods is that they are hard for programmers to find.
 
 Item 2: Consider a builder when faced with many constructor parameters.
+
+Item 3: Enforce the singleton property with a private constructor or an enum type.
+        - Single-element enum type is often the best way to implement a singleton.
