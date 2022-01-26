@@ -14,3 +14,9 @@ Item 2: Consider a builder when faced with many constructor parameters.
 
 Item 3: Enforce the singleton property with a private constructor or an enum type.
         - Single-element enum type is often the best way to implement a singleton.
+
+Item 4: Enforce non-instantiability with a private constructor.
+        - Attempting to enforce non-instantiability by making a class abstract does not work.
+          The class can be subclassed and the subclass instantiated.
+        - A class can be made non-instantiable by including a private constructor.
+        - Favor class over enum.
