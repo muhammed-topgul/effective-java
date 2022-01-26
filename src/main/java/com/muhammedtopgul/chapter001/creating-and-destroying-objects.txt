@@ -26,3 +26,5 @@ Item 5: Prefer dependency injection to hard-wiring resources.
         - A simple pattern that satisfies this requirement is to pass the resource into the constructor when creating a new instance.
 
 Item 6: Avoid creating unnecessary objects.
+
+Item 7: Eliminate obsolete object references.
