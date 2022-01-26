@@ -8,17 +8,17 @@ package com.muhammedtopgul.chapter001.item01.good;
 class Animal {
 
     public static Animal MAMMAL = new Animal("UNKNOWN", true, true);
-    public static Animal NON_MAMMAL_AND_MOVING_WITH_FEET = new Animal("UNKNOWN", false, true);
-    public static Animal NON_MAMMAL_AND_MOVING_WITH_NON_FEET = new Animal("UNKNOWN", false, false);
+    public static Animal NON_MAMMAL_AND_IS_MOVING_WITH_FEET = new Animal("UNKNOWN", false, true);
+    public static Animal NON_MAMMAL_AND_IS_MOVING_WITH_NON_FEET = new Animal("UNKNOWN", false, false);
 
     private String breed;
     private boolean isMammal;
-    private boolean movingWithFeet;
+    private boolean isMovingWithFeet;
 
-    protected Animal(String breed, boolean isMammal, boolean movingWithFeet) {
+    protected Animal(String breed, boolean isMammal, boolean isMovingWithFeet) {
         this.breed = breed;
         this.isMammal = isMammal;
-        this.movingWithFeet = movingWithFeet;
+        this.isMovingWithFeet = isMovingWithFeet;
     }
 
     public static Animal getMammal(String breed) {
@@ -46,21 +46,21 @@ class Animal {
         return "Animal{" +
                 "breed='" + breed + '\'' +
                 ", isMammal=" + isMammal +
-                ", movingWithFeet=" + movingWithFeet +
+                ", isMovingWithFeet=" + isMovingWithFeet +
                 '}';
     }
 }
 
 class Cat extends Animal {
 
-    protected Cat(String breed, boolean isMammal, boolean movingWithFeet) {
-        super(breed, isMammal, movingWithFeet);
+    protected Cat(String breed, boolean isMammal, boolean isMovingWithFeet) {
+        super(breed, isMammal, isMovingWithFeet);
     }
 }
 
 class Dog extends Animal {
 
-    protected Dog(String breed, boolean isMammal, boolean movingWithFeet) {
-        super(breed, isMammal, movingWithFeet);
+    protected Dog(String breed, boolean isMammal, boolean isMovingWithFeet) {
+        super(breed, isMammal, isMovingWithFeet);
     }
 }

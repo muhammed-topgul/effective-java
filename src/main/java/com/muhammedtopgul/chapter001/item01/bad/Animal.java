@@ -8,12 +8,12 @@ package com.muhammedtopgul.chapter001.item01.bad;
 class Animal {
     private String breed;
     private boolean isMammal;
-    private boolean movingWithFeet;
+    private boolean isMovingWithFeet;
 
-    public Animal(String breed, boolean isMammal, boolean movingWithFeet) {
+    public Animal(String breed, boolean isMammal, boolean isMovingWithFeet) {
         this.breed = breed;
         this.isMammal = isMammal;
-        this.movingWithFeet = movingWithFeet;
+        this.isMovingWithFeet = isMovingWithFeet;
     }
 
     @Override
@@ -21,21 +21,21 @@ class Animal {
         return "AnimalWithConstructor{" +
                 "breed='" + breed + '\'' +
                 ", isMammal=" + isMammal +
-                ", movingWithFeet=" + movingWithFeet +
+                ", isMovingWithFeet=" + isMovingWithFeet +
                 '}';
     }
 }
 
 class Cat extends Animal {
 
-    public Cat(String breed, boolean isMammal, boolean movingWithFeet) {
-        super(breed, isMammal, movingWithFeet);
+    public Cat(String breed, boolean isMammal, boolean isMovingWithFeet) {
+        super(breed, isMammal, isMovingWithFeet);
     }
 }
 
 class Dog extends Animal {
 
-    public Dog(String breed, boolean isMammal, boolean movingWithFeet) {
-        super(breed, isMammal, movingWithFeet);
+    public Dog(String breed, boolean isMammal, boolean isMovingWithFeet) {
+        super(breed, isMammal, isMovingWithFeet);
     }
 }
