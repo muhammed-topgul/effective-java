@@ -32,3 +32,5 @@ Item 7: Eliminate obsolete object references.
 Item 8: Avoid finalizers and cleaners.
         - Finalizers are unpredictable, often dangerous, and generally unnecessary.
         - Cleaners are less dangerous than finalizers, but still unpredictable, slow, and generally unnecessary.
+
+Item 9: Prefer try-with-resources to try-finally.
