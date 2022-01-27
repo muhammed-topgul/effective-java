@@ -9,3 +9,5 @@ Item 13: Override clone judiciously.
          - Immutable classes should never provide a clone method.
          - The clone method functions as a constructor; you must ensure that it does no harm to the original object and
            that it properly establishes invariants on the clone.
+
+Item 14: Consider implementing Comparable.
