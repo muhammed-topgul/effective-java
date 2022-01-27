@@ -4,3 +4,8 @@ Item 11: Always override hashCode when you override equals
          - You must override hashCode in every class that overrides equals. I
 
 Item 12: Always override toString.
+
+Item 13: Override clone judiciously.
+         - Immutable classes should never provide a clone method.
+         - The clone method functions as a constructor; you must ensure that it does no harm to the original object and
+           that it properly establishes invariants on the clone.
