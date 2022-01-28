@@ -12,3 +12,6 @@ Item 17: Minimize mutability.
          - Make all fields final.
          - Make all fields private
          - Ensure exclusive access to any mutable components.
+
+Item 18: Favor composition over inheritance.
+         - Unlike method invocation, inheritance violates encapsulation.
