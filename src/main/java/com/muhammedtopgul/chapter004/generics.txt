@@ -7,3 +7,5 @@ Item 28: Prefer lists to arrays.
 Item 29: Favor generic types.
 
 Item 30: Favor generic methods.
+
+Item 31: Use bounded wildcards to increase API flexibility.
