@@ -5,3 +5,10 @@ Item 15: Minimize the accessibility of classes and members.
          - It is wrong for a class to have a public static final array field, or an accessor that returns such a field.
 
 Item 16: In public classes, use accessor methods, not public fields.
+
+Item 17: Minimize mutability.
+         - Don’t provide methods that modify the object’s state.
+         - Ensure that the class can’t be extended.
+         - Make all fields final.
+         - Make all fields private
+         - Ensure exclusive access to any mutable components.
