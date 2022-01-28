@@ -31,3 +31,9 @@ Item 21: Design interfaces for posterity.
 Item 22: Use interfaces only to define types.
 
 Item 23: Prefer class hierarchies to tagged classes.
+
+Item 24: Favor static member classes over nonstatic.
+         - Static Nested Classes.
+         - Non-static Nested Classes.
+         - Local Classes.
+         - Anonymous Classes.
