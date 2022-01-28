@@ -37,3 +37,5 @@ Item 24: Favor static member classes over nonstatic.
          - Non-static Nested Classes.
          - Local Classes.
          - Anonymous Classes.
+
+Item 25: Limit source files to a single top-level class.
