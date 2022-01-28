@@ -25,3 +25,7 @@ Item 20: Prefer interfaces to abstract classes.
          - Interfaces allow for the construction of non-hierarchical type frameworks.
          - Interfaces enable safe, powerful functionality enhancements.
          - Good documentation is absolutely essential in a skeletal implementation.
+
+Item 21: Design interfaces for posterity.
+
+Item 22: Use interfaces only to define types.
