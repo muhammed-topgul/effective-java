@@ -9,3 +9,5 @@ Item 29: Favor generic types.
 Item 30: Favor generic methods.
 
 Item 31: Use bounded wildcards to increase API flexibility.
+
+Item 32: Combine generics and varargs judiciously.
