@@ -9,3 +9,5 @@ Item 37: Use EnumMap instead of ordinal indexing.
 Item 38: Emulate extensible enums with interfaces.
 
 Item 39: Prefer annotations to naming patterns.
+
+Item 40: Consistently use the Override annotation.
