@@ -11,3 +11,5 @@ Item 38: Emulate extensible enums with interfaces.
 Item 39: Prefer annotations to naming patterns.
 
 Item 40: Consistently use the Override annotation.
+
+Item 41: Use marker interfaces to define types.
