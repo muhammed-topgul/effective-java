@@ -7,3 +7,5 @@ Item 36: Use EnumSet instead of bit fields.
 Item 37: Use EnumMap instead of ordinal indexing.
 
 Item 38: Emulate extensible enums with interfaces.
+
+Item 39: Prefer annotations to naming patterns.
