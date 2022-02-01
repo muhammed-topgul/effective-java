@@ -1,1 +1,3 @@
 Item 42: Prefer lambdas to anonymous classes.
+
+Item 43: Prefer method references to lambdas.
