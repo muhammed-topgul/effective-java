@@ -20,3 +20,5 @@ Item 46: Prefer side-effect-free functions in streams.
          joining()
 
 Item 47: Prefer Collection to Stream as a return type.
+
+Item 48: Use caution when making streams parallel.
