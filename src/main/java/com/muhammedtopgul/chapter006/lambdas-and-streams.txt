@@ -11,3 +11,10 @@ Item 44: Favor the use of standard functional interfaces.
          Consumer<T> void accept(T t) System.out::println
 
 Item 45: Use streams judiciously.
+
+Item 46: Prefer side-effect-free functions in streams.
+         toList()
+         toSet()
+         toMap()
+         groupingBy()
+         joining()
