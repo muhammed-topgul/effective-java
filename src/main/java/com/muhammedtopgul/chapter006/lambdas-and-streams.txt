@@ -9,3 +9,5 @@ Item 44: Favor the use of standard functional interfaces.
          Function<T,R> R apply(T t) Arrays::asList
          Supplier<T> T get() Instant::now
          Consumer<T> void accept(T t) System.out::println
+
+Item 45: Use streams judiciously.
