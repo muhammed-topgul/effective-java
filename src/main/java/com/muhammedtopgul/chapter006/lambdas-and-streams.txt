@@ -18,3 +18,5 @@ Item 46: Prefer side-effect-free functions in streams.
          toMap()
          groupingBy()
          joining()
+
+Item 47: Prefer Collection to Stream as a return type.
