@@ -1,1 +1,3 @@
 Item 49: Check parameters for validity.
+
+Item 50: Make defensive copies when needed.
