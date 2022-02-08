@@ -10,3 +10,5 @@ Item 51: Design method signatures carefully.
          - Prefer two-element enum types to boolean parameters.
 
 Item 52: Use overloading judiciously.
+
+Item 53: Use varargs judiciously.
