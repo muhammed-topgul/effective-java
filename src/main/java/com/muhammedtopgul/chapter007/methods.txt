@@ -16,3 +16,5 @@ Item 53: Use varargs judiciously.
 Item 54: Return empty collections or arrays, not nulls.
 
 Item 55: Return optionals judiciously.
+
+Item 56: Write doc comments for all exposed API elements.
