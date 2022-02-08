@@ -12,3 +12,5 @@ Item 51: Design method signatures carefully.
 Item 52: Use overloading judiciously.
 
 Item 53: Use varargs judiciously.
+
+Item 54: Return empty collections or arrays, not nulls.
