@@ -1,3 +1,10 @@
 Item 49: Check parameters for validity.
 
 Item 50: Make defensive copies when needed.
+
+Item 51: Design method signatures carefully.
+         - Choose method names carefully.
+         - Don’t go overboard in providing convenience methods.
+         - Avoid long parameter lists.
+         - For parameter types, favor interfaces over classes.
+         - Prefer two-element enum types to boolean parameters.
