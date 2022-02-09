@@ -8,3 +8,5 @@ Item 59: Know and use the libraries.
          - java.io
 
 Item 60: Avoid float and double if exact answers are required.
+
+Item 61: Prefer primitive types to boxed primitives.
