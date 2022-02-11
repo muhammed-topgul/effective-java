@@ -10,3 +10,5 @@ Item 59: Know and use the libraries.
 Item 60: Avoid float and double if exact answers are required.
 
 Item 61: Prefer primitive types to boxed primitives.
+
+Item 62: Avoid strings where other types are more appropriate.
