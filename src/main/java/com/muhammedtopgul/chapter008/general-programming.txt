@@ -16,3 +16,11 @@ Item 62: Avoid strings where other types are more appropriate.
 Item 63: Beware the performance of string concatenation.
 
 Item 64: Refer to objects by their interfaces.
+
+Item 65: Prefer interfaces to reflection.
+
+Item 66: Use native methods judiciously.
+
+Item 67: Optimize judiciously.
+
+Item 68: Adhere to generally accepted naming conventions.
