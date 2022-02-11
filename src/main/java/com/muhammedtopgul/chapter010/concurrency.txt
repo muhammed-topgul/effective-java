@@ -1,3 +1,5 @@
 Item 78: Synchronize access to shared mutable data.
 
 Item 79: Avoid excessive synchronization.
+
+Item 80: Prefer executors, tasks, and streams to threads.
